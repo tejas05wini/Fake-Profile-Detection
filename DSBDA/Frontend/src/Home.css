@@ -1,0 +1,56 @@
+/* 🎨 Full-Page Background */
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: linear-gradient(120deg, #f7caa3, #ff9472);
+  color: #333;
+}
+
+/* ✅ Home Content */
+.home-content {
+  max-width: 750px;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* 🔹 Headings */
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #a14a1f;
+}
+
+h1 span {
+  color: #d77a29;
+}
+
+p {
+  font-size: 1.3rem;
+  margin-top: 15px;
+  opacity: 0.9;
+}
+
+/* 🚀 Call to Action Button */
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 18px;
+  color: white;
+  background: linear-gradient(45deg, #d77a29, #a14a1f);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background: linear-gradient(45deg, #a14a1f, #d77a29);
+  transform: scale(1.1);
+}

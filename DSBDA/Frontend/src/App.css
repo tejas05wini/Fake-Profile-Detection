@@ -1,0 +1,68 @@
+/* 🎨 Smooth Gradient Background for All Pages */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(120deg, #f7caa3, #ff9472); /* Soft Orange & Pink Gradient */
+  background-size: cover;
+  height: 100vh;
+  color: #333;
+}
+
+/* ✅ Full Page Content */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* 📝 Common Styling for All Pages */
+h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #a14a1f;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  opacity: 0.9;
+}
+
+/* 🚀 Call to Action Button */
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 18px;
+  color: white;
+  background: linear-gradient(45deg, #d77a29, #a14a1f);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background: linear-gradient(45deg, #a14a1f, #d77a29);
+  transform: scale(1.1);
+}
+
+/* 🎯 Sidebar Toggle Button (Moved to Top Left) */
+.sidebar-toggle {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  background: rgba(255, 255, 255, 0.8);
+  color: #333;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 22px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.sidebar-toggle:hover {
+  background: rgba(255, 255, 255, 1);
+}
